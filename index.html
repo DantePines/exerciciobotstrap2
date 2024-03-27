@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto com Bootstrap</title>
+    <!-- Adicionando Bootstrap via CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Estilos personalizados -->
+    <style>
+        .carousel-item img {
+            width: 100%;
+            height: 400px; /* Altura das imagens do carousel */
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Carousel de imagens -->
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./imagens/wallpaperflare.com_wallpaper.jpg" class="d-block w-100" alt="Imagem 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagens/wallpaperflare.com_wallpaper (3).jpg" class="d-block w-100" alt="Imagem 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagens/wallpaperflare.com_wallpaper (1).jpg" class="d-block w-100" alt="Imagem 3">
+                </div>
+            </div>
+        </div>
+
+        <!-- Layout com grid -->
+        <div class="row mt-5">
+            <!-- Coluna para dispositivos de largura média ou superior -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="./imagens/qaozzybvfy681.jpg" class="card-img-top" alt="Produto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Adagas de Kamish</h5>
+                        <p class="card-text">Adagas feitas com impressao 3D para cosplay</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="./imagens/qaozzybvfy681.jpg" class="card-img-top" alt="Produto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Adagas de Kamish</h5>
+                        <p class="card-text">Adagas feitas com impressao 3D para cosplay</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="./imagens/qaozzybvfy681.jpg" class="card-img-top" alt="Produto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Adagas de Kamish</h5>
+                        <p class="card-text">Adagas feitas com impressao 3D para cosplay</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="./imagens/qaozzybvfy681.jpg" class="card-img-top" alt="Produto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Adagas de Kamish</h5>
+                        <p class="card-text">Adagas feitas com impressao 3D para cosplay</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repetir para os outros itens do grid -->
+        </div>
+    </div>
+
+    <!-- Adicionando jQuery, Popper.js e Bootstrap JS via CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
